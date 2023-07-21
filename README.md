@@ -6,13 +6,13 @@
 3. The developed model can handle Longer Videos (Over 1 min long) which the original Wav2Lip model can't.
 4. Improved the inference model of the Wav2Lip.
 <br>
-<b>Challenges:</b><br>
+<b>Challenges:</b><br><br>
 1. Wav2Lip with GAN doesn't provide good lipsync for longer videos, videos with any head movement, and high-resolution videos.<br>
 2. Wav2Lip also doesn't have a mechanism to make a distinction between the target speaker and other faces that appears in the video.<br>
 3. The problems with longer and high-resolution videos, videos with some frames without a face have been solved in the notebook, however, solving challenge 2 would require deeper changes to the Wav2Lip model.<br>
 4. Long runtimes for longer videos.<br>
 <br><br>
-<b>NOTE:</b><br>
+<b>NOTE:</b><br><br>
 1. For 10 minutes or longer Youtube Videos took over 5-7 minutes to load and clip the part necessary for lip-sync in the notebook.<br>
 2. Therefore for the default link attached in the Colab Notebook, I have clipped the necessary (to be lipsync) portion which is 1 min 25 seconds long, and uploaded it on youtube, from where we could load the video more easily.<br>
 3. It has a watermark of the Video Editing tool used to clip the 10 min video with.<br>
